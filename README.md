@@ -1,4 +1,4 @@
-### jQuery to Mi home page
+### Airplane Game Demo
 
-预览链接 [demo](https://hrealm.github.io/jq-mi-page/)
+预览链接 [demo](https://hrealm.github.io/airplane-game/)
 
