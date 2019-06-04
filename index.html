@@ -148,7 +148,7 @@
             <p>简单</p>
             <p>中等</p>
             <p>困难</p>
-            <p style="color: #f00">ECHO附体</p>
+            <p style="color: #f00">超神附体</p>
         </div>
         <div id="map">
             <div id="BiuAll"></div>
@@ -220,12 +220,12 @@
         function MapBg(level) {
             oMap.style.backgroundImage = "url('img/bg_"+(level+1)+".jpg')";
 
-            (function m() {
-                oMap.bgPosY = oMap.bgPosY || 0;
-                oMap.bgPosY++;
-                oMap.style.backgroundPositionY = oMap.bgPosY + "px";
-                oMap.bgTimer = requestAnimationFrame(m);
-            })();
+            // (function m() {
+            //     oMap.bgPosY = oMap.bgPosY || 0;
+            //     oMap.bgPosY++;
+            //     oMap.style.backgroundPositionY = oMap.bgPosY + "px";
+            //     oMap.bgTimer = requestAnimationFrame(m);
+            // })();
         }
 
 
@@ -430,13 +430,13 @@
             if ( s < -300){
                 honor = "闪避达人";
             } else if (s < 10) {
-                honor = "菜";
+                honor = "大菜达人";
             }else if( s < 30 ){
-                honor = "抠脚侠！";
+                honor = "小菜达人";
             }else if( s < 100){
                 honor = "初级飞机大师";
             }else if ( s < 200 ){
-                honor = "渐入佳境";
+                honor = "初级达人";
             }else if ( s < 500 ){
                 honor = "中级飞机大师";
             }else if ( s < 1000 ){
